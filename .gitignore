@@ -1,3 +1,7 @@
+# Override to the below to prevent any jetbrains IDE settings leaking into the repo.
+
+.idea/*
+
 # Created by https://www.toptal.com/developers/gitignore/api/linux,macos,rider,csharp,windows,dotnetcore,visualstudio,visualstudiocode,jetbrains
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,rider,csharp,windows,dotnetcore,visualstudio,visualstudiocode,jetbrains
 
