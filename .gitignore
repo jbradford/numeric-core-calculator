@@ -1,3 +1,7 @@
+# Override to remove ALL .idea folders + contents.
+
+.idea/
+
 # Created by https://www.toptal.com/developers/gitignore/api/linux,macos,rider,csharp,windows,dotnetcore,visualstudio,visualstudiocode,jetbrains
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,rider,csharp,windows,dotnetcore,visualstudio,visualstudiocode,jetbrains
 
