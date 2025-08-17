@@ -24,6 +24,15 @@ public static class Calculator
 
     public static int? Calculate(int[] numbers)
     {
+        if (numbers.Any(n => n < 1))
+        {
+            throw new ArgumentException("All elements in numbers must be positive.", nameof(numbers));
+        }
+
+        if (numbers.Length != 4)
+        {
+            throw new ArgumentException("Exactly 4 elements required to calculate a numeric core.", nameof(numbers));
+        }
         int? result = null;
         foreach (var ops in s_possibleOperations)
         {
