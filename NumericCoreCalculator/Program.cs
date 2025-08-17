@@ -21,7 +21,7 @@ do
 
     if (input.Length == 4 && input.All(char.IsAsciiLetter))
     {
-        calculatorInput = input.Select(c=>char.ToUpper(c) -'A' + 1).ToArray();
+        calculatorInput = input.Select(c => char.ToUpper(c) - 'A' + 1).ToArray();
     }
     else
     {
